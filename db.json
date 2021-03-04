@@ -1,9 +1,139 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "meetings": {
+        "version": 1,
+        "meetings": [{
+                "name": "Daily",
+                "lang": "DE",
+                "type": "checklist",
+                "checklist-entries": [{
+                        "id": 1,
+                        "question": "Habe ich Abstimmungsbedarf?",
+                        "type": "switch",
+                        "placeholder": "Mit wem?"
+                    },
+                    {
+                        "id": 2,
+                        "question": "Was habe ich gemacht?",
+                        "type": "textblock",
+                        "placeholder": "Aufgabe"
+                    },
+                    {
+                        "id": 3,
+                        "question": "Besteht Sprintgefährdung?",
+                        "type": "switch",
+                        "placeholder": "Warum?"
+                    },
+                    {
+                        "id": 4,
+                        "question": "Brauche ich weitere Aufgaben?",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "name": "Sprint Review",
+                "lang": "DE",
+                "type": "checklist",
+                "checklist-entries": [{
+                        "id": 1,
+                        "question": "Habe ich meine Storys aktualisiert?",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": 2,
+                        "question": "Was habe ich gemacht?",
+                        "type": "textblock",
+                        "placeholder": "Aufgabe"
+                    },
+                    {
+                        "id": 3,
+                        "question": "Habe ich etwas zum Zeigen?",
+                        "type": "switch",
+                        "placeholder": "Was?"
+                    },
+                    {
+                        "id": 4,
+                        "question": "Welche Aufgaben habe ich nicht beendet?",
+                        "type": "textblock",
+                        "placeholder": "Aufgabe"
+                    },
+                    {
+                        "id": 5,
+                        "question": "Brauche ich Unterstützung?",
+                        "type": "switch",
+                        "placeholder": "Von wem?"
+                    }
+                ]
+            },
+            {
+                "name": "Daily",
+                "lang": "EN",
+                "type": "checklist",
+                "checklist-entries": [{
+                        "id": 1,
+                        "question": "Do I need coordination?",
+                        "type": "switch",
+                        "placeholder": "With whom?"
+                    },
+                    {
+                        "id": 2,
+                        "question": "What did I do?",
+                        "type": "textblock",
+                        "placeholder": "Task"
+                    },
+                    {
+                        "id": 3,
+                        "question": "Is the Sprint in danger?",
+                        "type": "switch",
+                        "placeholder": "Why?"
+                    },
+                    {
+                        "id": 4,
+                        "question": "Do I need more tasks?",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "name": "Sprint Review",
+                "lang": "EN",
+                "type": "checklist",
+                "checklist-entries": [{
+                        "id": 1,
+                        "question": "Did I update my Storys?",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": 2,
+                        "question": "What did I do?",
+                        "type": "textblock",
+                        "placeholder": "Task"
+                    },
+                    {
+                        "id": 3,
+                        "question": "Do I have something to present?",
+                        "type": "switch",
+                        "placeholder": "What?"
+                    },
+                    {
+                        "id": 4,
+                        "question": "Which Tasks did I not finish?",
+                        "type": "textblock",
+                        "placeholder": "Aufgabe"
+                    },
+                    {
+                        "id": 5,
+                        "question": "Do I need support?",
+                        "type": "switch",
+                        "placeholder": "By whom?"
+                    }
+                ]
+            },
+            {
+                "name": "Sprintplanung",
+                "lang": "ALL",
+                "type": "calculator"
+            }
+        ]
+    }
 }
